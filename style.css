@@ -1,0 +1,55 @@
+*{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+header{
+    max-width: 85%;
+    margin: auto;
+    text-align: center;
+}
+.logo img{
+    display: block;
+    max-width: 100px;
+}
+.logo{
+    vertical-align: middle;
+    display: inline-block;
+    width: 32%;
+}
+.navigate{
+    vertical-align: middle;
+    display: inline-block;
+    width: 33%;
+}
+.title{
+    vertical-align: middle;
+    display: inline-block;
+    text-align: right;
+    width: 33%;
+    font-size: 40px;
+}   
+.container{
+    max-width: 85%;
+    margin: auto;
+}
+.card{
+    display: inline-block;
+    border: 1px solid black;
+    max-width: 25%;
+    vertical-align: top;
+    margin: 10px 3.5%;
+    box-shadow: 0 0 15px black;
+}
+.image{
+display: inline-block;
+max-width: 100%;
+}
+.image img{
+display: block;
+max-width: 100%;
+}
+.card p:last-child{
+    text-align: right;
+}
+.card p{
+    padding: 5px;
+}
